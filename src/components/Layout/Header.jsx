@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Calendar, Phone, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import cxLogo from "../../assets/logos/CX-Loyalty-Summit-Mena.png"
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   
@@ -25,7 +25,8 @@ export default function Header() {
           <div className="flex flex-col sm:flex-row justify-between items-center py-2 gap-2">
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
-                                    <img src="/CX-Loyalty-Summit-Mena.png" alt="Proptech Summit" className="w-32 h-32 bg-white" /> 
+                                    <img src={cxLogo} alt="Proptech Summit" className="w-32 h-32 bg-white" />
+                                    
 
                 <Calendar size={14} />
                 <span>Upcoming: CX & Loyalty Summit - Nov 1-2, 2023</span>

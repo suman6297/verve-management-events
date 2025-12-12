@@ -1,6 +1,6 @@
 import { Calendar, MapPin, Users, Shield, Cpu, Globe } from 'lucide-react';
 import SectionHeader from '../Common/SectionHeader';
-
+import bankLogo from "../../assets/logos/Future-Banks-Summit-KSA-2023 (1).png"
 export default function BankSummit() {
   const topics = [
     'VISION 2030 - EMERGENCE OF THE KINGDOM AS A GLOBAL FINANCIAL LEADER',
@@ -24,7 +24,7 @@ export default function BankSummit() {
           <div className="flex items-center gap-4 mb-8">
             <div className="w-32 h-32 bg-white rounded-xl flex items-center justify-center backdrop-blur-sm">
 
-            <img src="/Future-Banks-Summit-KSA-2023 (1).png" alt="" srcset=""  className=' bg-white' />
+            <img src={bankLogo} alt="" srcset=""  className=' bg-white' />
               <Shield size={32} className="text-white" />
             </div>
             <div>
