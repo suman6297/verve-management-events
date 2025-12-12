@@ -48,7 +48,7 @@ export default function WomenLeadersSummit() {
           <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
             {/* Logo */}
             <div className="w-32 h-32  rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/30">
-            <img src="\womens-leaders-summit-2022-logo-WHITE-06.png" alt="" srcset="" className=' w-16' />
+            <img src="/womens-leaders-summit-2022-logo-WHITE-06.png" alt="" srcset="" className=' w-16' />
        
               {/* If no logo - use this */}
               <div className="text-center">

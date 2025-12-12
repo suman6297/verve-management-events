@@ -24,7 +24,7 @@ export default function BankSummit() {
           <div className="flex items-center gap-4 mb-8">
             <div className="w-32 h-32 bg-white rounded-xl flex items-center justify-center backdrop-blur-sm">
 
-            <img src="\Future-Banks-Summit-KSA-2023 (1).png" alt="" srcset=""  className=' bg-white' />
+            <img src="/Future-Banks-Summit-KSA-2023 (1).png" alt="" srcset=""  className=' bg-white' />
               <Shield size={32} className="text-white" />
             </div>
             <div>
